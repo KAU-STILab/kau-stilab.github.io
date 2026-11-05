@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "id": "phd",
+      "label": "Ph.D. Candidates",
+      "order": 1
+    },
+    {
+      "id": "ms",
+      "label": "M.S. Candidates",
+      "order": 2
+    },
+    {
+      "id": "undergraduate",
+      "label": "Undergraduate Students",
+      "order": 3
+    }
+  ],
+  "members": [
+    {
+      "id": "jinju-kim",
+      "nameEn": "Jinju Kim",
+      "nameKo": "김진주",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "pmsuk4023@naver.com",
+      "photo": "assets/images/members/jinju-kim.jpg",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "chaeyun-kim",
+      "nameEn": "Chaeyun Kim",
+      "nameKo": "김채윤",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "cgim1902@gmail.com",
+      "photo": "assets/images/members/chaeyun-kim.jpg",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "seungjun-lee",
+      "nameEn": "Seungjun Lee",
+      "nameKo": "이승준",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "pronate@kau.kr",
+      "photo": "assets/images/members/seungjun-lee.jpg",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "minjae-won",
+      "nameEn": "Minjae Won",
+      "nameKo": "원민재",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "lgtwins2003@gmail.com",
+      "photo": "assets/images/members/minjae-won.jpg",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "seoyoung-jeon",
+      "nameEn": "Seoyoung Jeon",
+      "nameKo": "전서영",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "wjstjdud21@gmail.com",
+      "photo": "assets/images/members/seoyoung-jeon.jpg",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "jihun-kim",
+      "nameEn": "Jihun Kim",
+      "nameKo": "김지훈",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "steve1921@kau.kr",
+      "photo": "assets/images/members/jihun-kim.jpg",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "seungbin-yoo",
+      "nameEn": "Seungbin Yoo",
+      "nameKo": "유승빈",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "tmdqls1015@naver.com",
+      "photo": "assets/images/members/seungbin-yoo.jpg",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "sunho-choi",
+      "nameEn": "Sunho Choi",
+      "nameKo": "최선호",
+      "group": "undergraduate",
+      "position": "Software Engineering",
+      "email": "alwlwlfk1@kau.kr",
+      "photo": "assets/images/members/sunho-choi.jpg",
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "sungjin-park",
+      "nameEn": "Sungjin Park",
+      "nameKo": "박성진",
+      "group": "undergraduate",
+      "position": "Undergraduate Research Intern",
+      "email": "",
+      "photo": "assets/images/members/sungjin-park.jpg",
+      "visible": true,
+      "order": 9
+    }
+  ]
+}

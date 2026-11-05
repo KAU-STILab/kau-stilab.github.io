@@ -1,0 +1,284 @@
+{
+  "courses": [
+    {
+      "code": "2AI4203",
+      "title": "Machine Learning",
+      "semester": "Fall 2026",
+      "institution": "Korea Aerospace University",
+      "visible": true,
+      "order": 1,
+      "instructor": {
+        "name": "Jiyoon Shin",
+        "email": "jiyoonshin@kau.ac.kr"
+      },
+      "teachingAssistants": [
+        {
+          "name": "Minjae Won",
+          "email": "lgtwins2003@gmail.com"
+        },
+        {
+          "name": "Yewon Hwang",
+          "email": "hamcheese8989@kau.kr"
+        }
+      ],
+      "lecture": "Wednesday 14:00–18:00 · Electronics Building 422",
+      "officeHours": "Tuesday / Thursday 14:00–17:00 · Electronics Building 403",
+      "grading": "Midterm 30% · Final 30% · Homework 30% · Attendance 10%",
+      "assignmentNotes": [
+        "Homework assignments should be submitted via LXP.",
+        "Late submissions will not be accepted."
+      ],
+      "assignments": [
+        {
+          "name": "Homework 1",
+          "assigned": "Sep. 24 at 00:00",
+          "due": "Sep. 30 at 23:59",
+          "document": "assets/courses/2ai4203/hw01-foundations-of-machine-learning.pdf"
+        },
+        {
+          "name": "Homework 2",
+          "assigned": "Oct. 15 at 00:00",
+          "due": "Oct. 18 at 23:59",
+          "document": "assets/courses/2ai4203/hw02-machine-learning-methods.pdf"
+        },
+        {
+          "name": "Homework 3",
+          "assigned": "Nov. 12 at 00:00",
+          "due": "Nov. 18 at 23:59",
+          "document": ""
+        },
+        {
+          "name": "Homework 4",
+          "assigned": "Dec. 03 at 00:00",
+          "due": "Dec. 06 at 23:59",
+          "document": ""
+        }
+      ],
+      "lectures": [
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Sep. 02",
+          "number": 1,
+          "title": "Introduction to Machine Learning",
+          "description": [
+            "Course overview",
+            "What is machine learning?",
+            "AI vs. ML vs. DL",
+            "Applications of machine learning"
+          ],
+          "slides": "assets/courses/2ai4203/lec01-introduction-to-machine-learning.pdf",
+          "notes": ""
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Sep. 09",
+          "number": 2,
+          "title": "Learning from Data & Linear Regression",
+          "description": [
+            "Data & learning paradigms",
+            "Classification vs. regression",
+            "Machine learning workflow",
+            "Linear regression",
+            "Loss functions",
+            "Gradient descent"
+          ],
+          "slides": "assets/courses/2ai4203/lec02-learning-from-data-linear-regression.pdf",
+          "notes": "assets/courses/2ai4203/lec02-learning-from-data-linear-regression-notes.pdf"
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Sep. 16",
+          "number": 3,
+          "title": "Classification with Linear Models",
+          "description": [
+            "Binary classification",
+            "Logistic regression",
+            "Sigmoid & binary cross-entropy",
+            "Multiclass classification",
+            "Softmax & cross-entropy"
+          ],
+          "slides": "assets/courses/2ai4203/lec03-classification-with-linear-models.pdf",
+          "notes": "assets/courses/2ai4203/lec03-classification-with-linear-models-notes.pdf"
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Sep. 23",
+          "number": 4,
+          "title": "Model Evaluation and Generalization",
+          "description": [
+            "Data splits & model selection",
+            "Cross-validation",
+            "Performance metrics",
+            "Underfitting & overfitting",
+            "Bias-variance tradeoff",
+            "Regularization & early stopping"
+          ],
+          "slides": "assets/courses/2ai4203/lec04-model-evaluation-generalization.pdf",
+          "notes": "assets/courses/2ai4203/lec04-model-evaluation-generalization-notes.pdf"
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Sep. 30",
+          "number": 5,
+          "title": "Tree-Based Machine Learning Models",
+          "description": [
+            "Decision trees",
+            "Splitting criteria",
+            "Tree complexity & pruning",
+            "Bagging & random forests",
+            "OOB evaluation & feature importance"
+          ],
+          "slides": "assets/courses/2ai4203/lec05-tree-based-models.pdf",
+          "notes": "assets/courses/2ai4203/lec05-tree-based-models-notes.pdf"
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Oct. 07",
+          "number": 6,
+          "title": "Support Vector Machines & Boosting",
+          "description": [
+            "Feature scaling",
+            "Support vector machines",
+            "Kernel methods & nonlinear SVM",
+            "Bagging vs. boosting",
+            "AdaBoost & gradient boosting",
+            "XGBoost & LightGBM"
+          ],
+          "slides": "assets/courses/2ai4203/lec06-svm-boosting.pdf",
+          "notes": "assets/courses/2ai4203/lec06-svm-boosting-notes.pdf"
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Oct. 14",
+          "number": 7,
+          "title": "Dimensionality Reduction & Clustering",
+          "description": [
+            "Unsupervised learning",
+            "Principal component analysis",
+            "K-means clustering",
+            "Hierarchical clustering",
+            "Clustering evaluation"
+          ],
+          "slides": "assets/courses/2ai4203/lec07-dimensionality-reduction-clustering.pdf",
+          "notes": "assets/courses/2ai4203/lec07-dimensionality-reduction-clustering-notes.pdf"
+        },
+        {
+          "section": "Part I: Foundations of Machine Learning",
+          "date": "Oct. 21",
+          "number": null,
+          "title": "Midterm Exam",
+          "description": [],
+          "slides": "",
+          "notes": "",
+          "type": "exam"
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Oct. 28",
+          "number": 8,
+          "title": "Machine Learning in Practice",
+          "description": [
+            "Data preprocessing",
+            "Feature engineering",
+            "Data leakage",
+            "Model selection",
+            "Hyperparameter optimization",
+            "Machine learning pipelines",
+            "Common pitfalls"
+          ],
+          "slides": "assets/courses/2ai4203/lec08-machine-learning-in-practice.pdf",
+          "notes": "assets/courses/2ai4203/lec08-machine-learning-in-practice-notes.pdf"
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Nov. 04",
+          "number": 9,
+          "title": "Neural Networks & Representation Learning",
+          "description": [
+            "From linear models to neural networks",
+            "Multi-layer perceptrons",
+            "Activation functions",
+            "Forward & backpropagation",
+            "Gradient-based learning",
+            "Representation learning"
+          ],
+          "slides": "",
+          "notes": ""
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Nov. 11",
+          "number": 10,
+          "title": "Trustworthy & Explainable Machine Learning",
+          "description": [
+            "Interpretability & explainability",
+            "Feature importance & SHAP",
+            "Confidence & calibration",
+            "Uncertainty estimation",
+            "Fairness, bias & adversarial robustness",
+            "Conformal prediction"
+          ],
+          "slides": "",
+          "notes": ""
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Nov. 18",
+          "number": 11,
+          "title": "Machine Learning under Distribution Shift",
+          "description": [
+            "Distribution shift",
+            "Covariate, label & concept shift",
+            "OOD detection",
+            "Domain adaptation & generalization",
+            "Robust learning"
+          ],
+          "slides": "",
+          "notes": ""
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Nov. 25",
+          "number": 12,
+          "title": "Data-Centric Machine Learning",
+          "description": [
+            "Data quality",
+            "Label noise",
+            "Class imbalance & long-tailed data",
+            "Dataset bias",
+            "Sampling & augmentation",
+            "Data-centric AI"
+          ],
+          "slides": "",
+          "notes": ""
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Dec. 02",
+          "number": 13,
+          "title": "Foundation Models & Emerging ML Paradigms",
+          "description": [
+            "Foundation models",
+            "Attention & transformers",
+            "Pretraining & in-context learning",
+            "Foundation models beyond language",
+            "TabPFN & AutoML",
+            "Future directions"
+          ],
+          "slides": "",
+          "notes": ""
+        },
+        {
+          "section": "Part II: Modern Machine Learning: Practice & Reliability",
+          "date": "Dec. 09",
+          "number": null,
+          "title": "Final Exam",
+          "description": [],
+          "slides": "",
+          "notes": "",
+          "type": "exam"
+        }
+      ]
+    }
+  ]
+}
