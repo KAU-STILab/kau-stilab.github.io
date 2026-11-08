@@ -33,13 +33,13 @@
           "name": "Homework 1",
           "assigned": "Sep. 24 at 00:00",
           "due": "Sep. 30 at 23:59",
-          "document": "assets/courses/2ai4203/hw01-foundations-of-machine-learning.pdf"
+          "document": "https://drive.google.com/file/d/1t6cx416wXWzFR40Ys59-L6FyS06dQg8F/view?usp=drive_link"
         },
         {
           "name": "Homework 2",
           "assigned": "Oct. 15 at 00:00",
           "due": "Oct. 18 at 23:59",
-          "document": "assets/courses/2ai4203/hw02-machine-learning-methods.pdf"
+          "document": "https://drive.google.com/file/d/1cIVK1D3iz6YTY8cuQe7L9vQ0WfY_Ogmt/view?usp=drive_link"
         },
         {
           "name": "Homework 3",
@@ -66,7 +66,7 @@
             "AI vs. ML vs. DL",
             "Applications of machine learning"
           ],
-          "slides": "assets/courses/2ai4203/lec01-introduction-to-machine-learning.pdf",
+          "slides": "https://drive.google.com/file/d/1QmZeCs9CJtwy8wdowfSiRIzOIBsv9ZDd/view?usp=drive_link",
           "notes": ""
         },
         {
@@ -82,8 +82,8 @@
             "Loss functions",
             "Gradient descent"
           ],
-          "slides": "assets/courses/2ai4203/lec02-learning-from-data-linear-regression.pdf",
-          "notes": "assets/courses/2ai4203/lec02-learning-from-data-linear-regression-notes.pdf"
+          "slides": "https://drive.google.com/file/d/1LkAzZLNGJb48WCg4cs5JNgXI4gVj68_X/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1WCS1bjaJB6vs6CsdxfkGxPXArNdWDMIW/view?usp=drive_link"
         },
         {
           "section": "Part I: Foundations of Machine Learning",
@@ -97,8 +97,8 @@
             "Multiclass classification",
             "Softmax & cross-entropy"
           ],
-          "slides": "assets/courses/2ai4203/lec03-classification-with-linear-models.pdf",
-          "notes": "assets/courses/2ai4203/lec03-classification-with-linear-models-notes.pdf"
+          "slides": "https://drive.google.com/file/d/1IeBYfkQe-fes97LGvzFUXH0WF0y8M3Yz/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1YptjHvZoaAAkXZ0oSmVFdLe-Kb3Wjj_1/view?usp=drive_link"
         },
         {
           "section": "Part I: Foundations of Machine Learning",
@@ -113,8 +113,8 @@
             "Bias-variance tradeoff",
             "Regularization & early stopping"
           ],
-          "slides": "assets/courses/2ai4203/lec04-model-evaluation-generalization.pdf",
-          "notes": "assets/courses/2ai4203/lec04-model-evaluation-generalization-notes.pdf"
+          "slides": "https://drive.google.com/file/d/1Yc43nUv_4RTPCR4OFVVR1u5ruQ_3k5Gx/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1hvyTdJhMt81d8kceqiiIdneoL6_E01Pu/view?usp=drive_link"
         },
         {
           "section": "Part I: Foundations of Machine Learning",
@@ -128,8 +128,8 @@
             "Bagging & random forests",
             "OOB evaluation & feature importance"
           ],
-          "slides": "assets/courses/2ai4203/lec05-tree-based-models.pdf",
-          "notes": "assets/courses/2ai4203/lec05-tree-based-models-notes.pdf"
+          "slides": "https://drive.google.com/file/d/16MDeQJd2Zpnyymyspmbu-LjLGkOsAWtD/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1GrqTHz5HcuAARGvkTlVcRStjILDeJkTG/view?usp=drive_link"
         },
         {
           "section": "Part I: Foundations of Machine Learning",
@@ -144,8 +144,8 @@
             "AdaBoost & gradient boosting",
             "XGBoost & LightGBM"
           ],
-          "slides": "assets/courses/2ai4203/lec06-svm-boosting.pdf",
-          "notes": "assets/courses/2ai4203/lec06-svm-boosting-notes.pdf"
+          "slides": "https://drive.google.com/file/d/1dkUE--93S0W6qDFZVDI3iDr5Qqqx_x20/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1ThO18hUnRqETv8BWYZwkvPoQbxTeHqaY/view?usp=drive_link"
         },
         {
           "section": "Part I: Foundations of Machine Learning",
@@ -159,8 +159,8 @@
             "Hierarchical clustering",
             "Clustering evaluation"
           ],
-          "slides": "assets/courses/2ai4203/lec07-dimensionality-reduction-clustering.pdf",
-          "notes": "assets/courses/2ai4203/lec07-dimensionality-reduction-clustering-notes.pdf"
+          "slides": "https://drive.google.com/file/d/1pDO1ucoeDtbqc6VFqzgmpg5Otrm8kO6B/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1FOL5_LPzGowce6n0ASezqC2BlqaOX1BN/view?usp=drive_link"
         },
         {
           "section": "Part I: Foundations of Machine Learning",
@@ -186,8 +186,8 @@
             "Machine learning pipelines",
             "Common pitfalls"
           ],
-          "slides": "assets/courses/2ai4203/lec08-machine-learning-in-practice.pdf",
-          "notes": "assets/courses/2ai4203/lec08-machine-learning-in-practice-notes.pdf"
+          "slides": "https://drive.google.com/file/d/1GMwFWa5ri-FqJYl1j2WkuzLJlVrKAsRt/view?usp=drive_link",
+          "notes": "https://drive.google.com/file/d/1atByERgddTlgd93aYcekXM2MqKtul8xH/view?usp=drive_link"
         },
         {
           "section": "Part II: Modern Machine Learning: Practice & Reliability",
