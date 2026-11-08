@@ -7,6 +7,7 @@
   <meta
     name="description"
     content="Structured Intelligence Lab at Korea Aerospace University">
+  <meta name="robots" content="noindex, nofollow, noarchive">
 
   <title>Board | STIL Lab</title>
 
@@ -24,11 +25,107 @@
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231f4b7a'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Arial' font-size='25' font-weight='700' fill='white'%3EST%3C/text%3E%3C/svg%3E">
 
   <style>
+    .board-access {
+      min-height: 520px;
+      display: grid;
+      place-items: center;
+      padding: 56px 0 12px;
+    }
+
+    .board-login {
+      width: min(100%, 520px);
+      padding: 48px;
+      border: 1px solid var(--line);
+      background: var(--white);
+    }
+
+    .board-login[hidden],
+    .board-content[hidden] {
+      display: none;
+    }
+
+    .board-login h2 {
+      margin-bottom: 14px;
+      color: var(--ink);
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .board-login p {
+      margin-bottom: 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .board-password-label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .board-password-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+    }
+
+    .board-password-input {
+      min-width: 0;
+      height: 48px;
+      padding: 0 14px;
+      border: 1px solid #cfcfcf;
+      border-radius: 0;
+      background: var(--white);
+      color: var(--ink);
+      font: inherit;
+    }
+
+    .board-password-input:focus {
+      outline: 2px solid var(--ink);
+      outline-offset: 2px;
+    }
+
+    .board-submit {
+      min-width: 112px;
+      height: 48px;
+      padding: 0 20px;
+      border: 1px solid var(--dark);
+      background: var(--dark);
+      color: var(--white);
+      cursor: pointer;
+      font: inherit;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .board-submit:hover { background: #000; }
+    .board-submit:disabled { cursor: wait; opacity: 0.55; }
+
+    .board-error {
+      min-height: 24px;
+      margin: 14px 0 0 !important;
+      color: #a33030 !important;
+      font-size: 13px !important;
+    }
+
+    .board-support {
+      margin: 18px 0 0 !important;
+      font-size: 12px !important;
+    }
+
+    .board-content {
+      padding-top: 40px;
+    }
+
     .notion-board-section {
       position: relative;
       left: 50%;
       width: min(1500px, calc(100vw - 48px));
-      margin: 40px 0 0;
+      margin: 0;
       transform: translateX(-50%);
     }
 
@@ -51,6 +148,15 @@
     }
 
     @media (max-width: 600px) {
+      .board-access {
+        min-height: 420px;
+        padding-top: 32px;
+      }
+
+      .board-login { padding: 32px 22px; }
+      .board-password-row { grid-template-columns: 1fr; }
+      .board-submit { width: 100%; }
+
       .notion-board-section {
         width: calc(100vw - 20px);
       }
@@ -122,17 +228,47 @@
       </h1>
     </div>
 
-    <section
-      class="notion-board-section"
-      aria-label="STIL Lab paper reading database">
+    <section class="board-access" aria-labelledby="board-login-title">
+      <form class="board-login" id="board-login" autocomplete="off">
+        <h2 id="board-login-title">Members Only</h2>
+        <p>This board is available to STIL Lab members.</p>
 
-      <iframe
-        class="notion-board-frame"
-        src="https://charmed-duckling-c92.notion.site/ebd/3b291ad951f9803990f0d708be98e9b8"
-        title="STIL Lab Papers"
-        loading="lazy"
-        allowfullscreen>
-      </iframe>
+        <label class="board-password-label" for="board-password">
+          Password
+        </label>
+
+        <div class="board-password-row">
+          <input
+            class="board-password-input"
+            id="board-password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            required>
+
+          <button class="board-submit" id="board-submit" type="submit">
+            Enter
+          </button>
+        </div>
+
+        <p class="board-error" id="board-error" role="alert" aria-live="polite"></p>
+        <p class="board-support">The password is verified only inside this browser and is not stored.</p>
+      </form>
+
+      <div class="board-content" id="board-content" hidden>
+        <section
+          class="notion-board-section"
+          aria-label="STIL Lab paper reading database">
+          <iframe
+            class="notion-board-frame"
+            id="notion-board-frame"
+            title="STIL Lab Papers"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+            allowfullscreen>
+          </iframe>
+        </section>
+      </div>
     </section>
   </main>
 
@@ -220,5 +356,6 @@
   </footer>
 
   <script src="../assets/main.js"></script>
+  <script src="./board-auth.js"></script>
 </body>
 </html>

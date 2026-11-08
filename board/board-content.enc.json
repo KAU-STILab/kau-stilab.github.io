@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "algorithm": "AES-256-CBC+HMAC-SHA-256",
+  "kdf": "PBKDF2-SHA-256",
+  "iterations": 600000,
+  "salt": "0TY/+dwPRLZHjl8qvuhzFA==",
+  "iv": "R3GwcX9T5dBxBJvTk0HT6g==",
+  "ciphertext": "+2gQnaku8VCE5UVxzSijd3bV4mxdwWpmol77Jwp8WdhnPDr5zeVdK6QYZdiwBhJPhKdXzKZNvrnSFFhQ8JwPbqg+lqFqJu4DSmYkvqwA0Y2Vo/AjxOcw9kFGGzSvlgW/oAB1swSXQBTq+Z7qEIZxeDYEnnGfZcYxyp3/8lJIAi9RuIMX6uvsGvCzo7ewBr+h",
+  "mac": "/JVHbX6mT161fOSo3jNMa/cM1MQHPc9s3U3IHTa0s/8="
+}
